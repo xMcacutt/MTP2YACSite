@@ -1,0 +1,340 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model SignUpFormData;
+
+<head>
+    <meta charset="UTF-8">
+    <title>MTP2YAC - Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.3/nouislider.min.css">
+    <style>
+        .event-options-div {
+            display: none;
+            margin-top: 3.5rem;
+            margin-bottom: 1rem; 
+        }
+        .range-output {
+            display: flex;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            justify-content: space-between;
+        }
+        .section-header{
+            font-size: 24px;
+        }
+        .form-group{
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .form-check{
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        body{
+            background-color: rgb(33, 36, 38);
+            color: rgb(255, 255, 255);
+            font-family: Arial, sans-serif;
+            font-size: 1.2em;
+            font-weight: bold;
+            line-height: 1.6;
+            margin-top: 1rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+        }
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        img{
+            width: 100%;
+        }
+        .btn-primary{
+            background-color: rgb(231, 153, 65);
+            border-color: rgb(231, 153, 65);
+            color: white;
+            margin-top: 2rem;
+            font-size: 20px;
+        }
+        .btn-primary:hover{
+            background-color: rgb(41, 96, 159);
+            border-color: rgb(41, 96, 159);
+            color: white;
+        }
+        .noUi-connect {
+            background: rgb(231, 153, 65);
+        }
+        .noUi-horizontal .noUi-handle, .noUi-vertical .noUi-handle {
+            background: rgb(231, 153, 65);
+        }
+        .form-check-label{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img alt="MTP2YAC" class="center" src="~/images/image2.png"/>
+        <hr/>
+        @using (Html.BeginForm("SubmitForm", "Home", FormMethod.Post))
+        {
+            <div class="form-group">
+                <label class="section-header" for="discordUsername">Discord Username</label>
+                <input type="text" class="form-control" name="DiscordUsername" id="discordUsername" placeholder="Enter your Discord username" required>
+            </div>
+            <hr/>
+            <div class="form-group">
+                <label class="section-header">Select Your Availability</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input event-checkbox" id="event1" asp-for="Event1">
+                    <label class="form-check-label" for="event1">Collection Mode FFA - Friday 2nd August</label>
+                    <div class="event-options-div" id="event1-options">
+                        <div class="range-group" id="event1-range">
+                            <input type="hidden" id="event1-start-time" name="Event1StartTime" value="">
+                            <input type="hidden" id="event1-end-time" name="Event1EndTime" value="">
+                        </div>
+                        <div class="range-output">
+                            <output id="event1-start-output">12:00 PM</output>
+                            <output id="event1-end-output">02:00 AM</output>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input event-checkbox" id="event2" asp-for="Event2">
+                    <label class="form-check-label" for="event2">The Weakest Skink - Saturday 3rd August</label>
+                    <div class="event-options-div" id="event2-options">
+                        <div class="range-group" id="event2-range">
+                            <input type="hidden" id="event2-start-time" name="Event2StartTime" value="">
+                            <input type="hidden" id="event2-end-time" name="Event2EndTime" value="">
+                        </div>
+                        <div class="range-output">
+                            <output id="event2-start-output">12:00 PM</output>
+                            <output id="event2-end-output">02:00 AM</output>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input event-checkbox" id="event3" asp-for="Event3">
+                    <label class="form-check-label" for="event3">Bingo 2v2 - Sunday 4th August</label>
+                    <div class="event-options-div" id="event3-options">
+                        <div class="range-group" id="event3-range">
+                            <input type="hidden" id="event3-start-time" name="Event3StartTime" value="">
+                            <input type="hidden" id="event3-end-time" name="Event3EndTime" value="">
+                        </div>
+                        <div class="range-output">
+                            <output id="event3-start-output">12:00 PM</output>
+                            <output id="event3-end-output">02:00 AM</output>
+                        </div>
+                        <label for="event3RunningPartner">Event Partner (optional)</label>
+                        <input type="text" class="form-control" id="event3RunningPartner" name="Event3RunningPartner" placeholder="Enter a player to be partnered with (optional)">
+                    </div>
+                </div>
+                <hr/>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input event-checkbox" id="event4" asp-for="Event4">
+                    <label class="form-check-label" for="event4">Chaos Mode 2v2 - Friday 9th August</label>
+                    <div class="event-options-div" id="event4-options">
+                        <div class="range-group" id="event4-range">
+                            <input type="hidden" id="event4-start-time" name="Event4StartTime" value="">
+                            <input type="hidden" id="event4-end-time" name="Event4EndTime" value="">
+                        </div>
+                        <div class="range-output">
+                            <output id="event4-start-output">12:00 PM</output>
+                            <output id="event4-end-output">02:00 AM</output>
+                        </div>
+                        <label for="event4RunningPartner">Event Partner (optional)</label>
+                        <input type="text" class="form-control" id="event4RunningPartner" name="Event4RunningPartner" placeholder="Enter a player to be partnered with (optional)">
+                    </div>
+                </div>
+                <hr/>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input event-checkbox" id="event5" asp-for="Event1">
+                    <label class="form-check-label" for="event5">Hide & Seek 2v2 - Saturday 10th August</label>
+                    <div class="event-options-div" id="event5-options">
+                        <div class="range-group" id="event5-range">
+                            <input type="hidden" id="event5-start-time" name="Event5StartTime" value="">
+                            <input type="hidden" id="event5-end-time" name="Event5EndTime" value="">
+                        </div>
+                        <div class="range-output">
+                            <output id="event5-start-output">12:00 PM</output>
+                            <output id="event5-end-output">02:00 AM</output>
+                        </div>
+                        <label for="event5RunningPartner">Event Partner (optional)</label>
+                        <input type="text" class="form-control" id="event5RunningPartner" name="Event5RunningPartner" placeholder="Enter a player to be partnered with (optional)">
+                    </div>
+                </div>
+                <hr/>
+            </div>
+            <button type="submit" class="btn btn-primary center" style="width: 30%">SUBMIT</button>
+        }
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.3/nouislider.min.js"></script>
+    <script>
+        window.onload = function() {
+            // Function to get the user's timezone name
+            function getUserTimeZone() {
+                return Intl.DateTimeFormat().resolvedOptions().timeZone;
+            }
+        
+            // Function to convert a Unix timestamp to a Date object
+            function convertUnixToDate(unixTimestamp) {
+                return new Date(unixTimestamp);
+            }
+            
+            function isDST(d) {
+                let jan = new Date(d.getFullYear(), 0, 1).getTimezoneOffset();
+                let jul = new Date(d.getFullYear(), 6, 1).getTimezoneOffset();
+                return Math.max(jan, jul) !== d.getTimezoneOffset();    
+            }
+        
+            // Function to format the date object to the user's locale and timezone
+            function formatDateToUserTimeZone(date) {
+                const timeZone = getUserTimeZone();
+                const dateOptions = { timeZone, year: 'numeric', month: 'long', day: 'numeric' };
+                const timeOptions = { timeZone, hour: 'numeric', minute: 'numeric', second: 'numeric' };
+            
+                const formattedDate = date.toLocaleDateString(undefined, dateOptions);
+                const formattedTime = date.toLocaleTimeString(undefined, timeOptions);
+            
+                return `${formattedDate} ${formattedTime}`;
+            }
+        
+            // Function to initialize the event ranges
+            function initEventRange(eventId, startTimestampUtc, endTimestampUtc) {
+                var range = document.getElementById(eventId + '-range');
+                var startOutput = document.getElementById(eventId + '-start-output');
+                var endOutput = document.getElementById(eventId + '-end-output');
+        
+                // Convert UTC timestamps to local time
+                var offsetStart = 0;
+                var offsetEnd = 0;
+                if (isDST(new Date(startTimestampUtc)))
+                    offsetStart = -3600 * 1000;
+                if (isDST(new Date(endTimestampUtc)))
+                    offsetEnd = -3600 * 1000;
+                var startTimeLocal = convertUnixToDate(startTimestampUtc - offsetStart);
+                var endTimeLocal = convertUnixToDate(endTimestampUtc - offsetEnd);
+        
+                noUiSlider.create(range, {
+                    start: [startTimeLocal.getTime(), endTimeLocal.getTime()],
+                    connect: true,
+                    range: {
+                        'min': startTimeLocal.getTime(),
+                        'max': endTimeLocal.getTime()
+                    },
+                    step: 30 * 60 * 1000, // 30 minutes in milliseconds
+                    tooltips: [true, true],
+                    format: {
+                        to: function(value) {
+                            var date = new Date(+value);
+                            return formatDateToUserTimeZone(date);
+                        },
+                        from: function(value) {
+                            return Number(value);
+                        }
+                    }
+                });
+        
+                // Function to format date and time
+                function formatDateTime(date) {
+                    var day = date.toDateString();
+                    var hours = date.getHours();
+                    var minutes = date.getMinutes();
+                    var ampm = hours >= 12 ? 'PM' : 'AM';
+                    hours = hours % 12;
+                    hours = hours ? hours : 12; // the hour '0' should be '12'
+                    minutes = minutes < 10 ? '0' + minutes : minutes;
+                    return day + ' ' + hours + ':' + minutes + ' ' + ampm;
+                }
+        
+                // Display initial values
+                startOutput.innerHTML = formatDateToUserTimeZone(startTimeLocal);
+                endOutput.innerHTML = formatDateToUserTimeZone(endTimeLocal);
+        
+                // Event listener for when slider values change
+                range.noUiSlider.on('update', function(values, handle) {
+                    var selectedStart = new Date(parseInt(values[0], 10));
+                    var selectedEnd = new Date(parseInt(values[1], 10));
+                });
+            }
+        
+            // Initialize the event ranges with UTC timestamps
+            initEventRange('event1', 1722592800 * 1000, 1722643200 * 1000);
+            initEventRange('event2', 1722679200 * 1000, 1722729600 * 1000);
+            initEventRange('event3', 1722765600 * 1000, 1722816000 * 1000);
+            initEventRange('event4', 1723197600 * 1000, 1723248000 * 1000);
+            initEventRange('event5', 1723284000 * 1000, 1723334400 * 1000);
+        };
+        // Function to format date and time
+        function formatDateTime(date) {
+            var daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+            var day = daysOfWeek[date.getDay()];
+            var hours = date.getHours();
+            var minutes = date.getMinutes();
+            var ampm = hours >= 12 ? 'PM' : 'AM';
+            hours = hours % 12;
+            hours = hours ? hours : 12; // the hour '0' should be '12'
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            return day + ' ' + hours + ':' + minutes + ' ' + ampm;
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get all checkboxes with class 'event-checkbox'
+            var checkboxes = document.querySelectorAll('.event-checkbox');
+            
+            // Iterate over each checkbox
+            checkboxes.forEach(function(checkbox) {
+                var eventId = checkbox.id;
+                var rangeGroup = document.getElementById(eventId + '-options');
+                
+                // Add change event listener to each checkbox
+                checkbox.addEventListener('change', function() {
+                    if (checkbox.checked) {
+                        rangeGroup.style.display = 'block';
+                    } else {
+                        rangeGroup.style.display = 'none';
+                    }
+                });
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('form').addEventListener('submit', function() {
+                updateEventTime('event1');
+                updateEventTime('event2');
+                updateEventTime('event3');
+                updateEventTime('event4');
+                updateEventTime('event5');
+            });
+        });
+        function updateEventTime(eventId) {
+            var slider = document.getElementById(eventId + '-range');
+            var startTimeInput = document.getElementById(eventId + "-start-time");
+            var endTimeInput = document.getElementById(eventId + "-end-time");
+            
+            var values = slider.noUiSlider.get();
+            // Parse the values to dates
+            var startDate = new Date(values[0]); // Convert timestamp to Date object
+            var endDate = new Date(values[1]);   // Convert timestamp to Date object
+                    
+            if (isDST(startDate))
+                offsetStart = -3600 * 1000;
+            if (isDST(endDate))
+                offsetEnd = -3600 * 1000;
+            startDate = startDate.getTime() - offsetStart;
+            endDate = endDate.getTime() - offsetEnd;
+
+            // Format the dates as required
+            startTimeInput.value = startDate;
+            endTimeInput.value = endDate;
+        }
+        function isDST(d) {
+            let jan = new Date(d.getFullYear(), 0, 1).getTimezoneOffset();
+            let jul = new Date(d.getFullYear(), 6, 1).getTimezoneOffset();
+            return Math.max(jan, jul) !== d.getTimezoneOffset();    
+        }
+    </script>
+</body>

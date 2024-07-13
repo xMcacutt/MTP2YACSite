@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2S2QjLjEAt19r2vKzQXBUDxTd9KSgYe0iB+6KJ+ia0BTwI3Fw3WM44KEMyOHpg+NKs3zie6ks/k9LzhDdakExA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\RiderProjects\\MTP2YAC Scheduling\\MTP2YAC Scheduling\\MTP2YAC Scheduling.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

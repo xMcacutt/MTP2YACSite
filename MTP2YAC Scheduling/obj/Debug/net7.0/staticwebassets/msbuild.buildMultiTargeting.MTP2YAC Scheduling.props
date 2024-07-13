@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MTP2YAC Scheduling.props" />
+</Project>

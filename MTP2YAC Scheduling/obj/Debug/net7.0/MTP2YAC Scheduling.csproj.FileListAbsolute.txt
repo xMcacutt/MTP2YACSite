@@ -1,0 +1,40 @@
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\appsettings.json
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\MTP2YAC Scheduling.staticwebassets.runtime.json
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\MTP2YAC Scheduling.exe
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\MTP2YAC Scheduling.deps.json
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\MTP2YAC Scheduling.runtimeconfig.json
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\MTP2YAC Scheduling.dll
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\MTP2YAC Scheduling.pdb
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\MTP2YAC Scheduling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\MTP2YAC Scheduling.AssemblyInfoInputs.cache
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\MTP2YAC Scheduling.AssemblyInfo.cs
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\MTP2YAC Scheduling.csproj.CoreCompileInputs.cache
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\MTP2YAC Scheduling.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\MTP2YAC Scheduling.RazorAssemblyInfo.cache
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\MTP2YAC Scheduling.RazorAssemblyInfo.cs
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\staticwebassets\msbuild.MTP2YAC Scheduling.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\staticwebassets\msbuild.build.MTP2YAC Scheduling.props
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MTP2YAC Scheduling.props
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MTP2YAC Scheduling.props
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\scopedcss\bundle\MTP2YAC Scheduling.styles.css
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\scopedcss\projectbundle\MTP2YAC Scheduling.bundle.scp.css
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\MTP2YAC Scheduling.dll
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\refint\MTP2YAC Scheduling.dll
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\MTP2YAC Scheduling.pdb
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\MTP2YAC Scheduling.genruntimeconfig.cache
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\ref\MTP2YAC Scheduling.dll
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\MTP2YAC Scheduling.csproj.AssemblyReference.cache
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\CsvHelper.dll
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\obj\Debug\net7.0\MTP2YAC Scheduling.csproj.CopyComplete
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\wwwroot\images\image1.png
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\wwwroot\images\image2.png
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\wwwroot\images\image3.png
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\wwwroot\images\image4.png
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\wwwroot\images\image5.png
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\wwwroot\images\image6.png
+C:\Users\admin\RiderProjects\MTP2YAC Scheduling\MTP2YAC Scheduling\bin\Debug\net7.0\wwwroot\images\image7.png
