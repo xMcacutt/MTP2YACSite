@@ -42,6 +42,8 @@ public class HomeController : Controller
         // Check ModelState.IsValid if you have validation attributes in your model
         if (ModelState.IsValid)
         {
+            Console.WriteLine(formData.Event1StartTime);
+            
             if (formData.Event1)
             {
                 formData.Event1StartTime =
